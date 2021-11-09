@@ -1,0 +1,22 @@
+.acordeon {
+    background-color: rgb(218, 218, 106);
+    color: black;
+    cursor: pointer;
+    padding: 20px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 16px;
+}
+
+.active, .acordeon:hover {
+    background-color: orange;
+}
+
+.panel {
+    padding: 0 20px;
+    display: none;
+    background-color: orangered;
+    overflow: hidden;
+}
