@@ -8,6 +8,7 @@
     text-align: left;
     outline: none;
     font-size: 16px;
+    transition: .3s;
 }
 
 .active, .acordeon:hover {
